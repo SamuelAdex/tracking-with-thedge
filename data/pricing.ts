@@ -17,7 +17,7 @@ export const pricing = [
             "Can serve dual purpose, like car charger type, which can also charge phones.",
         ],
         description: "One ideal method of hiding trackers is in plain sight. In this approach trackers are concealed in items that blends perfectly into the asset's body or environment.",
-        fancy: true,
+        fancy: false,
     },
     {
         title: "Standard Tracking",
@@ -65,7 +65,7 @@ export const pricing = [
             "Track History up to 6 Months (see past movement history of your vehicle)",
         ],
         description: "This is a vehicle security solution designed to address the rampart loss of vehicles despite having a tracker onboard.",
-        fancy: false,
+        fancy: true,
     },
     {
         title: "Multi-layer Advanced Tracking System",
