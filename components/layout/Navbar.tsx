@@ -37,7 +37,7 @@ const Navbar = () => {
 
                 <div className="flex flex-row justify-end space-x-2">
                     <ThemeChanger/>
-                    <Button>
+                    <Button className="md:flex hidden">
                         Get Started
                     </Button>
                 </div>
