@@ -20,7 +20,7 @@ const page = () => {
         <section className="">
             <div className='md:leading-[135px] leading-[38px] p-5'>
                 <p className='md:text-[80px]'>Thedge It With</p>
-                <p className='md:text-[270px] sm:text-[120px] text-[70px] font-bold bg-red-500'>THE BLOG</p>
+                <p className='md:text-[265px] sm:text-[130px] text-[70px] font-bold'>THE BLOG</p>
             </div>
 
             <div className='flex md:flex-row gap-10 flex-col md:mt-[6rem] mt-5 px-8'>
