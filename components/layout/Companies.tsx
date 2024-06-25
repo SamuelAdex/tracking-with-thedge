@@ -1,8 +1,10 @@
 "use client";
 
-import React from 'react'
+import React from 'react';
+import {useTheme} from "next-themes"
 
 const Companies = () => {
+  const {theme, setTheme} = useTheme()
   return (
     <section className="m-auto m-[0px] flex flex-col overflow-hidden items-center relative mt-[6rem]">
         <h6 className='text-center  md:text-[16px] md:font-semibold'>Join these inspiring organisations that already love TWT</h6>
@@ -16,7 +18,7 @@ const Companies = () => {
               <div className='backdrop-blur-md company shadow-sm p-2 rounded-[10px] text-nowrap'>Goverfix Nig LTD</div>
               <div className='backdrop-blur-md company shadow-sm p-2 rounded-[10px] text-nowrap'>Adexx Tech Inc.</div>
               <div className='backdrop-blur-md company shadow-sm p-2 rounded-[10px] text-nowrap'>9rato Marketplace</div>
-              <div className="fade"></div>
+              {theme === "light" ? <div className="absolute bg-gradient-to-r from-[#FFFFFF] via-transparent via-10% to-[#FFFFFF] inset-0 pointer-events-none"></div> : <div className="absolute bg-gradient-to-r from-[#020817] via-transparent via-10% to-[#020817] inset-0 pointer-events-none"></div>}
           </div>
         </section>
     </section>

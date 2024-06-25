@@ -91,7 +91,7 @@
   animation: loop 10s linear infinite;
 }
 
-.companies .company{
+/* .companies .company{
 
 }
 .fade{
@@ -99,7 +99,7 @@
   background: linear-gradient(90deg, #020817, transparent 10%, transparent 10%, #020817);
   inset: 0;
   pointer-events: none;
-}
+} */
 
 
 @keyframes loop {
