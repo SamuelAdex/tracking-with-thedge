@@ -72,14 +72,14 @@ export default function Home() {
                                width={1200}
                                height={800}/>
                     </div> */}
-                    <div className="max-w-4xl mx-auto mb-8">
-                        <Companies />
-                    </div>
                 </main>
+            </div>
+            <div className="max-w-6xl container mb-8">
+                <Companies />
             </div>
 
             {/* trust */}
-            <Card className="max-w-7xl flex md:flex-row rounded-xl flex-col md:justify-evenly gap-4 container p-12 mx-auto md:my-16 my-8">
+            <Card className="max-w-7xl flex md:flex-row rounded-xl flex-col md:justify-evenly gap-4 container md:p-12 p-8 mx-auto md:my-16 my-8">
                 <div className="flex-[3]">
                     <h3 className="md:text-[50px] text-[30px] md:text-left text-center font-bold">With Integrity and trust</h3>
                     <p className="md:text-[14px] text-[13px] md:text-justify text-center md:leading-[25px] leading-[20px]">At THEDGE ASSET TRACKERS, we understand that one major flaw that these conversational GPS trackers in the market has is that experienced car-jackers can easily locate and destroy them by following the wiring of the tracker. Thereby rendering the tracker useless in the event of carjacking, when it is needed mos. That is why we don't just stop at installing regular GPS trackers, that at best increases the chances of car recovery by a meagre 40%. We've gone a step further.</p>

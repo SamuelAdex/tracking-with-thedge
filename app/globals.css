@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -33,6 +35,10 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 2rem;
+  }
+
+  .pacifico{
+    font-family: "Pacifico", cursive;
   }
 
   .dark {
@@ -72,5 +78,35 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+
+.company-list{
+  /* background: red; */
+
+}
+.companies{
+  width: fit-content;
+  animation: loop 10s linear infinite;
+}
+
+.companies .company{
+
+}
+.fade{
+  position: absolute;
+  background: linear-gradient(90deg, #020817, transparent 10%, transparent 10%, #020817);
+  inset: 0;
+  pointer-events: none;
+}
+
+
+@keyframes loop {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-50%);
   }
 }
