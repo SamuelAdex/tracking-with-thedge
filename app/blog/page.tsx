@@ -25,7 +25,7 @@ const page = () => {
 
             <div className='flex md:flex-row gap-10 flex-col md:mt-[6rem] mt-5 px-8'>
                 <aside className="">
-                    <Link href={'/blog/new'} className='md:w-[600px] overflow-hidden'>
+                    <Link href={'/blog/new'} className='md:w-[600px] article overflow-hidden'>
                         <Image src={blogBg} className='md:w-[600px]' alt="" />
                         <div className=''>
                             <span></span>
@@ -36,7 +36,7 @@ const page = () => {
                 </aside>
                 <aside className="flex flex-col gap-6">
                     {[1,2,3,4].map((_, index)=>(
-                        <Link href={'/blog/new'} key={index} className='flex md:flex-row flex-col items-center gap-3'>
+                        <Link href={'/blog/new'} key={index} className='flex article md:flex-row flex-col items-center gap-3'>
                             <Image src={blogBg} className='md:w-[200px]' alt="" />
                             <div className=''>
                                 <span></span>
@@ -50,12 +50,12 @@ const page = () => {
 
             <section className='md:mt-[4rem] mt-[2rem] md:mb-[5rem] px-8'>
                 <div className='text-center'>
-                    <span className='md:text-[50px] text-[30px] text-white font-semibold'>Featured Blogs</span>
-                    <p className='md:text-[20px] text-[15px] text-[#bdbdbd]'>Featured based articles on each and every tools and devices from @trackingwiththedge</p>
+                    <span className='md:text-[50px] text-[30px] font-semibold'>Featured Blogs</span>
+                    <p className='md:text-[20px] text-[15px] text-[#8e8e8e]'>Featured based articles on each and every tools and devices from @trackingwiththedge</p>
                 </div>
                 <div className='grid md:grid-cols-4 sm:grid-cols-2 gap-5 gap-y-10 grid-cols-1 mt-8'>
                     {[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16].map((_, index)=>(
-                        <Link href={'/blog/new'} key={index} className='md:w-[300px] overflow-hidden cursor-pointer'>
+                        <Link href={'/blog/new'} key={index} className='md:w-[300px] article overflow-hidden cursor-pointer'>
                             <Image src={blogBg} className='md:w-[300px]' alt="" />
                             <div className='mt-4'>
                                 <span></span>

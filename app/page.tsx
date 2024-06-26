@@ -28,7 +28,7 @@ export default function Home() {
     
     return (
         <>
-            <div className="mt-[11rem]">
+            <div className="mt-[11rem]" id="home">
                 <main className="container mx-auto">
                     <div className="relative md:mt-24 mx-auto w-full max-w-4xl pt-4 text-center">
                         <div className="justify-center hidden md:flex">
@@ -47,10 +47,10 @@ export default function Home() {
                         Are you in search of a tracking solution that doesn't just reduce the chances of your car disappearing forever despite having tracker onboard? Then you're welcome to Thedge Asset Tracker (TAT). At TAT, we go the extra mile to guarantee  the safe recovery of your precious asset in the event of theft.
                         </p>
                         <div className="flex flex-row justify-center items-center space-x-4 my-8">
-                            <Button className="md:p-9 p-7 rounded-[40px]">
+                            <Button className="md:p-5 p-7 rounded-[40px]">
                                 Get Started
                             </Button>
-                            <Button className="md:p-9 p-7 rounded-[40px]" variant="secondary">
+                            <Button className="md:p-5 p-7 rounded-[40px]" variant="secondary">
                                 Learn More
                             </Button>
                         </div>
@@ -146,6 +146,7 @@ export default function Home() {
             {/* Pricing */}
 
             <section
+                id="services"
                 className="border-b dark border-border bg-background">
                 <div className="container mx-auto text-center">
                     <div className="py-14">

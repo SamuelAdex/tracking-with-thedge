@@ -11,11 +11,11 @@ const Footer = () => {
                     <p className="md:text-[30px] text-[14px]">
                         Stay one Step ahead of Thieves and asset thief with TWT!
                     </p>
-                    <div className="items-center gap-x-8 space-x-3 space-y-3 sm:flex md:justify-center justify-between sm:space-y-0">
-                        <Button className="md:p-9 p-7 rounded-[40px]">
+                    <div className="items-center gap-x-2 space-x-3 space-y-3 sm:flex md:justify-center justify-between sm:space-y-0">
+                        <Button className="md:p-5 p-7 rounded-[40px]">
                             Get started
                         </Button>
-                        <Button className="md:p-9 p-7 rounded-[40px]" variant="secondary">
+                        <Button className="md:p-5 p-7 rounded-[40px]" variant="secondary">
                             Learn more
                         </Button>
                     </div>

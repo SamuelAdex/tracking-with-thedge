@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  scroll-behavior: smooth;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -88,7 +92,7 @@
 }
 .companies{
   width: fit-content;
-  animation: loop 10s linear infinite;
+  animation: loop 10s linear infinite alternate;
 }
 
 /* .companies .company{
@@ -101,6 +105,20 @@
   pointer-events: none;
 } */
 
+.article{
+  transition: .3s linear;
+}
+.article:hover, .article:active{
+  transform: scale(105%);
+}
+
+/* Navigation bar animation styles */
+.slide-left {
+  -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  transition: ease-in-out .2s;
+}
+
 
 @keyframes loop {
   0%{
@@ -108,5 +126,26 @@
   }
   100%{
     transform: translateX(-50%);
+  }
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(-0px);
+    transform: translateX(-0px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(-0px);
+    transform: translateX(-0px);
   }
 }
