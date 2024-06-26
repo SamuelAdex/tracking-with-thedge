@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React from 'react'
-import AboutImg from '@/public/assets/Group 19.png'
+import AboutImg from '@/public/assets/twt_aboutBg.svg'
 
 const About = () => {
   return (

@@ -42,9 +42,9 @@ export default function Home() {
                                 </Link>
                             </div>
                         </div>
-                        <h1 className="md:text-7xl my-4 font-extrabold text-4xl md:leading-tight">Stay One Step Ahead of Thieves with TAT!</h1>
+                        <h1 className="md:text-7xl my-4 font-extrabold text-4xl md:leading-tight">Stay One Step Ahead of Thieves with TWT!</h1>
                         <p className="mx-auto my-4 text-sm w-full max-w-xl text-center font-medium leading-relaxed tracking-wide">
-                        Are you in search of a tracking solution that doesn't just reduce the chances of your car disappearing forever despite having tracker onboard? Then you're welcome to Thedge Asset Tracker (TAT). At TAT, we go the extra mile to guarantee  the safe recovery of your precious asset in the event of theft.
+                        Are you in search of a tracking solution that doesn't just reduce the chances of your car disappearing forever despite having tracker onboard? Then you're welcome to Tracking With Thedge (TWT). At TWT, we go the extra mile to guarantee  the safe recovery of your precious asset in the event of theft.
                         </p>
                         <div className="flex flex-row justify-center items-center space-x-4 my-8">
                             <Button className="md:p-5 p-7 rounded-[40px]">
@@ -82,7 +82,7 @@ export default function Home() {
             <Card className="max-w-7xl flex md:flex-row rounded-xl flex-col md:justify-evenly gap-4 container md:p-12 p-8 mx-auto md:my-16 my-8">
                 <div className="flex-[3]">
                     <h3 className="md:text-[50px] text-[30px] md:text-left text-center font-bold">With Integrity and trust</h3>
-                    <p className="md:text-[14px] text-[13px] md:text-justify text-center md:leading-[25px] leading-[20px]">At THEDGE ASSET TRACKERS, we understand that one major flaw that these conversational GPS trackers in the market has is that experienced car-jackers can easily locate and destroy them by following the wiring of the tracker. Thereby rendering the tracker useless in the event of carjacking, when it is needed mos. That is why we don't just stop at installing regular GPS trackers, that at best increases the chances of car recovery by a meagre 40%. We've gone a step further.</p>
+                    <p className="md:text-[14px] text-[13px] md:text-justify text-center md:leading-[25px] leading-[20px]">At Tracking With Thedge, we understand that one major flaw that these conversational GPS trackers in the market has is that experienced car-jackers can easily locate and destroy them by following the wiring of the tracker. Thereby rendering the tracker useless in the event of carjacking, when it is needed mos. That is why we don't just stop at installing regular GPS trackers, that at best increases the chances of car recovery by a meagre 40%. We've gone a step further.</p>
                 </div>
                 <div className="flex flex-col flex-[2] gap-8 md:items-end items-center md:text-left text-center">
                     <div className="flex flex-col">
@@ -106,11 +106,11 @@ export default function Home() {
                             WHY CHOOSE US
                         </h5>
                         <h2 className="text-4xl font-extrabold my-4">
-                            Guaranteed Premium theft protection with TAT
+                            Guaranteed Premium theft protection with TWT
                         </h2>
 
                         <p className="mx-auto my-4 text-sm w-full max-w-md bg-transparent text-center font-medium leading-relaxed tracking-wide text-muted-foreground">
-                        At TAT, we go the extra mile to guarantee  the safe recovery of your precious asset in the event of theft.
+                        At TWT, we go the extra mile to guarantee  the safe recovery of your precious asset in the event of theft.
                         </p>
 
                         <div className="flex flex-col md:flex-row gap-4 mt-12">
