@@ -47,7 +47,7 @@ const Navbar = () => {
                 <div className="flex flex-row justify-end md:gap-0 gap-4 items-center space-x-2">
                     <ThemeChanger/>
                     <Button className="md:flex hidden">
-                        Get Started
+                        <Link href={"/#contact"}>Get Started</Link>
                     </Button>
                     <div className="md:hidden flex">
                         {isNav == true ? <RiCloseFill onClick={()=> setIsNav(!isNav)} className="cursor-pointer text-[30px] active:rotate-[90deg] transition duration-300 ease-in-out" /> : <CgMenuRight onClick={()=> setIsNav(!isNav)} className="cursor-pointer active:rotate-[-90deg] text-[30px] transition duration-500 ease-in-out" /> }                        

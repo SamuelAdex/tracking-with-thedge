@@ -42,7 +42,7 @@ export const pricing = [
         fancy: false,
     },
     {
-        title: "Multi-layer Tracking System",
+        title: "Multi-layer Tracking",
         price: "₦150,000",
         features: [
             "Battery can last for 90 days", 
@@ -68,7 +68,7 @@ export const pricing = [
         fancy: true,
     },
     {
-        title: "Multi-layer Advanced Tracking System",
+        title: "Multi-layer Advanced Tracking",
         price: "₦200,000+",
         features: [
             "Anti-Jamming technology",

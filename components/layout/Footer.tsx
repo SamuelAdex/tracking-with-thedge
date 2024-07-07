@@ -4,7 +4,7 @@ import {Button} from "@/components/ui/button";
 
 const Footer = () => {
     return (
-        <footer className="pt-10">
+        <footer className="md:pt-40 pt-30">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="space-y-4 sm:max-w-5xl sm:mx-auto sm:text-center">
                     <h1 className="md:text-[60px] md:leading-[68px] font-extrabold text-[30px]">Don't just track it. <span className="text-yellow-400">Track with Thedge</span></h1>

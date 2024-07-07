@@ -3,13 +3,13 @@ import {Badge} from "@/components/ui/badge";
 import Link from "next/link";
 import {ArrowRightIcon} from "@radix-ui/react-icons";
 import {Button} from "@/components/ui/button";
-import ServiceRequest from "@/components/layout/ServiceRequest";
 import Image from "next/image";
 import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} from "@/components/ui/card";
 import {features} from "@/data/features";
 import {pricing} from "@/data/pricing";
 import {CircleCheck} from "lucide-react";
 import Companies from "@/components/layout/Companies";
+import ServiceRequest from "@/components/layout/ServiceRequest";
 import { Fragment, useState } from "react";
 import Display from "@/components/layout/Display";
 import About from "@/components/layout/About";
@@ -48,10 +48,10 @@ export default function Home() {
                         </p>
                         <div className="flex flex-row justify-center items-center space-x-4 my-8">
                             <Button className="md:p-5 p-7 rounded-[40px]">
-                                Get Started
+                                <Link href={"/#contact"}>Get Started</Link>
                             </Button>
                             <Button className="md:p-5 p-7 rounded-[40px]" variant="secondary">
-                                Learn More
+                                <Link href={"/#about"}>Learn More</Link>
                             </Button>
                         </div>
 
@@ -201,7 +201,7 @@ const PriceList: React.FC<PriceListProps> = ({plan}) =>{
             </CardHeader>
             <CardContent>
                 <Button className="w-full" variant={plan.fancy ? "default" : "secondary"}>
-                    Get Started
+                    <Link href={"/#contact"}>Get Started</Link>
                 </Button>
             </CardContent>
             <CardFooter>

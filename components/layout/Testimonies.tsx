@@ -25,14 +25,16 @@ const Testimonies = () => {
             // controlsStrategy="alternate"
             disableButtonsControls={true} 
             // className='grid md:grid-cols-3 mt-8 sm:grid-cols-2 grid-cols-1 gap-8'
+            autoPlay
+            infinite
         >
             {testimonials.map((_, index)=>(
-                <div className='p-5 dark:bg-transparent shadow-sm dark:shadow-neutral-600 mx-2 space-y-1 rounded-[18px]' key={index}>
-                    <div className=''>
+                <div className='p-5 dark:bg-transparent shadow-sm dark:shadow-neutral-600 mx-2 space-y-1 rounded-[12px] md:h-[200px] flex flex-col items-center justify-center' key={index}>
+                    <div className='w-full'>
                         <p className='font-semibold md:text-[20px] text-[18px]'>{_.name}</p>
                         <p className='md:text-[14px] text-[12px] dark:text-[#e8e8e8]'>{_.title}</p>
                     </div>
-                    <p className='md:text-[18px] mt-3 text-left text-[13px]'>{_.testimonial}</p>
+                    <p className='md:text-[18px] w-full mt-4 text-left text-[13px]'>{_.testimonial}</p>
                 </div>
             ))}
         </AliceCarousel>
