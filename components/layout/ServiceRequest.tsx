@@ -23,8 +23,7 @@ const ServiceRequest = () =>{
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31823.1802249188!2d7.180494393292132!3d4.430184577952936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x106857493b22b751%3A0xa8945f3feed9d6f0!2sGE%20THEDGE%20NIG%20LTD!5e0!3m2!1sen!2sng!4v1720353246689!5m2!1sen!2sng"
                         style={{border: 0}}
                         className='rounded-[12px] md:w-full w-full md:h-[300px] h-[350px]'
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade"
+                        loading="lazy"
                     ></iframe>
                 </section>
                 <section className='flex text-[15px] flex-wrap items-center mt-4'>
